@@ -286,7 +286,7 @@ def check_database():
         except:
             pass # doing nothing on exception
     
-# check_database()
+check_database()
 scheduler = BackgroundScheduler()
 scheduler.add_job(func=check_database, trigger="interval", hours=4)
 scheduler.start()
