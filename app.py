@@ -52,8 +52,8 @@ class Book_list(db.Model):
 # with app.app_context():
 #     db.create_all()
 #%%
-line_bot_api = LineBotApi('4q/qg3mb0gaInxBaRB882jaYgxkISoh7L4EN36n+U+ByoxLwWNziLX7468Fp+1zJ94f+OGC0X3q50q442xul1gSdT3DUYBd9kyVXqS00bJ2lUJHZ5slMS+tW7FmJG6tuoL94Wmn4m3TGm42MULHSwAdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('0bb5f782197f3422a357205e2b03976e')
+line_bot_api = LineBotApi('')
+handler = WebhookHandler('')
 #line_bot_api = LineBotApi(os.getenv('CHANNEL_ACCESS_TOKEN'))
 #handler = WebhookHandler(os.getenv('CHANNEL_SECRET'))
 #%%
